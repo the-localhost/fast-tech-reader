@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+		<title>Hello World!</title>
+  </head>
+  <body>
+    <div style="height:97vh;width:85vw;border:none;float:left;">
+			<iframe id="pdfu" style="background:black;display:block;height:97.1vh;width:85vw;border:none;"></iframe>
+		</div> 
+		<button id="btn1" style="text-align: center;margin-left: 3vw;">WordLists</button><br>
+	<div id="word_div" style="height:95vh;width:12vw;float:right;background-color: aliceblue;color: blue;overflow-y: scroll;">
+	</div>
+	<div id="definition">
+	</div>
+	<a onclick="getValue(this);">DATA</a>
+	<script>
+		function getValue(a) {
+			alert(a.innerHTML);
+		}
+	</script>
+	<script src="js/index.js"></script>
+	<div id="mydiv"></div>
+<a id="refresh">click</a>
+
+  </body>
+</html>
+                           
